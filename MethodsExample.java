@@ -1,5 +1,5 @@
 public class MethodsExample {
-    public static void main(String[] args) {
+    public static void main() {
         message1();
         message2();
         System.out.println("Done with main.");
