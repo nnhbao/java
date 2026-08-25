@@ -23,5 +23,6 @@ public class CS211_Bai6 {
         } else {
             System.out.println("Phuong trinh co nghiem duy nhat: x = " + (-b / (2 * a)));
         }
+    kb.close();
     }
 }

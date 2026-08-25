@@ -29,6 +29,7 @@ public class CS211_Bai8 {
                 else {nm= m; ny=y;}
                 System.out.println("Ngay mai la ngay "+ nd + " thang "+ nm + " nam " + ny);
             }
+        kb.close();
         }
         System.out.println("\n XONG!");
     }

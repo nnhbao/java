@@ -27,5 +27,6 @@ public class CS211_Bai7 {
                 System.out.println("Hệ vô nghiệm.");
             }
         }
+    sc.close();
     }
 }
