@@ -10,5 +10,6 @@ public class CS211_Bai1 {
         System.out.println("Tong hai so a + b = "+(a+b));
         System.out.println("Tong hai so "+a+" + "+b+" = "+(a+b));
         System.out.println("\n Xong!");
+        kb.close();
     }
 }

@@ -11,5 +11,6 @@ public class CS211_Bai3 {
         System.out.println("Chu vi hinh tron la: "+(PI*bk*2));
         System.out.println("Dien tich hinh tron la: "+(PI*bk*bk));
         System.out.println("The tich hinh tru la: "+(PI*bk*bk*cc));
+        kb.close();
     }
 }

@@ -10,5 +10,6 @@ public class CS211_Bai2 {
         System.out.print("Nhap nam sinh: ");
         int namsinh = kb.nextInt();
         System.out.println("Tuoi cua ban la: " + (2026 - namsinh));
+        kb.close();
     }
 }
