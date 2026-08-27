@@ -16,7 +16,7 @@ public class CS211_Bai11 {
                     break;
             case "*": System.out.print(a + " * " + b + " = " + (a * b));
                     break;
-            case "/": System.out.print(a + " / " + b + " = " + ((double) a / b));
+            case "/": System.out.print(a + " / " + b + " = " + (a / b));
                     break;
             default: System.out.print("Phep toan khong hop le!");
             
