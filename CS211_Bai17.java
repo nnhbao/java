@@ -24,8 +24,21 @@ public class CS211_Bai17 {
             }
             System.out.print(i + " ");
         }
-        System.out.println("\nSo phan tu le trong mang la: " + d);
-        System.out.println("Phan tu lon nhat trong mang la: " + max);
+
+        //System.out.print("Mang sau khi sap xep: ");
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        int count = 0;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i] + a[j] == 1000) {
+                    count++;
+        
+                }
+            }
+        }
+        System.out.println("\nSo cap phan tu co tong bang 1000 la: " + count);
         kb.close();
     } 
 }
