@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class test {
+public class warmup_xo {
     public static void main(String[] args) {
         Random rd = new Random();
         int[][] arr = new int[3][3];
